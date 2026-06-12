@@ -1,0 +1,1478 @@
+{
+  "oracle_full": {
+    "astropy__astropy-13398": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 1,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "astropy__astropy-14369": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-10554": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11138": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11333": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11400": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11532": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11734": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11885": {
+      "hunks": 10,
+      "covered": 10,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12155": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12325": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12406": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12741": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13121": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13195": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13212": {
+      "hunks": 13,
+      "covered": 13,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13344": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13512": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14011": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14170": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14315": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14376": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14631": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15103": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15561": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15563": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15629": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16032": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16256": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16263": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16315": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16560": {
+      "hunks": 18,
+      "covered": 18,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16631": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16938": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-14623": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-24870": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25479": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25775": {
+      "hunks": 12,
+      "covered": 12,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "mwaskom__seaborn-3187": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3095": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3305": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3993": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6938": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6992": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4551": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4604": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4661": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6386": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6528": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-8898": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-5840": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-8399": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "hunks": 24,
+      "covered": 24,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-10673": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7462": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7590": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8120": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8548": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8551": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8593": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-9461": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13091": {
+      "hunks": 45,
+      "covered": 45,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13877": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-14248": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-16597": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-17318": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-19783": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-20438": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-22080": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    }
+  },
+  "oracle_tier": {
+    "astropy__astropy-13398": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 1,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "astropy__astropy-14369": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-10554": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11138": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11333": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11400": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11532": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11734": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11885": {
+      "hunks": 10,
+      "covered": 10,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12155": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12325": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12406": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12741": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13121": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13195": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13212": {
+      "hunks": 13,
+      "covered": 13,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13344": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13512": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14011": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14170": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14315": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14376": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14631": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15103": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15561": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15563": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15629": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16032": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16256": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16263": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16315": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16560": {
+      "hunks": 18,
+      "covered": 18,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16631": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16938": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-14623": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-24870": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25479": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25775": {
+      "hunks": 12,
+      "covered": 12,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "mwaskom__seaborn-3187": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3095": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3305": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3993": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6938": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6992": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4551": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4604": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4661": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6386": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6528": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-8898": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-5840": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-8399": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "hunks": 24,
+      "covered": 24,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-10673": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7462": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7590": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8120": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8548": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8551": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8593": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-9461": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13091": {
+      "hunks": 45,
+      "covered": 45,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13877": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-14248": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-16597": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-17318": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-19783": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-20438": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-22080": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    }
+  },
+  "oracle_keep_drop": {
+    "astropy__astropy-13398": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 1,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "astropy__astropy-14369": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-10554": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11138": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11333": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11400": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11532": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11734": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-11885": {
+      "hunks": 10,
+      "covered": 10,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12155": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12325": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12406": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-12741": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13121": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13195": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13212": {
+      "hunks": 13,
+      "covered": 13,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13344": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-13512": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14011": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14170": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14315": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14376": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-14631": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15103": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15561": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15563": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-15629": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16032": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16256": {
+      "hunks": 11,
+      "covered": 11,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16263": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16315": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16560": {
+      "hunks": 18,
+      "covered": 18,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16631": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "django__django-16938": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-14623": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-24870": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25479": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "matplotlib__matplotlib-25775": {
+      "hunks": 12,
+      "covered": 12,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "mwaskom__seaborn-3187": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3095": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3305": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-3993": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6938": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pydata__xarray-6992": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4551": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4604": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-4661": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6386": {
+      "hunks": 8,
+      "covered": 8,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-6528": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pylint-dev__pylint-8898": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-5840": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "pytest-dev__pytest-8399": {
+      "hunks": 5,
+      "covered": 5,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "hunks": 24,
+      "covered": 24,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-10673": {
+      "hunks": 9,
+      "covered": 9,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7462": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-7590": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8120": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8548": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8551": {
+      "hunks": 2,
+      "covered": 2,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-8593": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sphinx-doc__sphinx-9461": {
+      "hunks": 7,
+      "covered": 7,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13091": {
+      "hunks": 45,
+      "covered": 45,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-13877": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-14248": {
+      "hunks": 4,
+      "covered": 4,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-16597": {
+      "hunks": 14,
+      "covered": 14,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-17318": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-19783": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-20438": {
+      "hunks": 6,
+      "covered": 6,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    },
+    "sympy__sympy-22080": {
+      "hunks": 3,
+      "covered": 3,
+      "new_file_hunks": 0,
+      "full_coverage": true,
+      "uncovered": []
+    }
+  }
+}

@@ -1,0 +1,1958 @@
+{
+  "oracle_seq": {
+    "astropy__astropy-13398": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3750
+    },
+    "astropy__astropy-14369": {
+      "edits_emitted": 11,
+      "edits_applied": 3,
+      "edits_failed_final": 4,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "max_tokens",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": true,
+      "diff_nonempty": true,
+      "patch_len": 4641
+    },
+    "django__django-10554": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 486
+    },
+    "django__django-11138": {
+      "edits_emitted": 13,
+      "edits_applied": 13,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 6934
+    },
+    "django__django-11333": {
+      "edits_emitted": 4,
+      "edits_applied": 4,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1137
+    },
+    "django__django-11400": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1319
+    },
+    "django__django-11532": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 529
+    },
+    "django__django-11734": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 744
+    },
+    "django__django-11885": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1518
+    },
+    "django__django-12155": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 599
+    },
+    "django__django-12325": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 852
+    },
+    "django__django-12406": {
+      "edits_emitted": 8,
+      "edits_applied": 2,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1377
+    },
+    "django__django-12741": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1378
+    },
+    "django__django-13121": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2241
+    },
+    "django__django-13195": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2053
+    },
+    "django__django-13212": {
+      "edits_emitted": 9,
+      "edits_applied": 9,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 6199
+    },
+    "django__django-13344": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 502
+    },
+    "django__django-13512": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1161
+    },
+    "django__django-14011": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 579
+    },
+    "django__django-14170": {
+      "edits_emitted": 5,
+      "edits_applied": 1,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 510
+    },
+    "django__django-14315": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 452
+    },
+    "django__django-14376": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1394
+    },
+    "django__django-14631": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3543
+    },
+    "django__django-15103": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1432
+    },
+    "django__django-15561": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 417
+    },
+    "django__django-15563": {
+      "edits_emitted": 4,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1270
+    },
+    "django__django-15629": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1417
+    },
+    "django__django-16032": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1031
+    },
+    "django__django-16256": {
+      "edits_emitted": 7,
+      "edits_applied": 7,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 4649
+    },
+    "django__django-16263": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2844
+    },
+    "django__django-16315": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 894
+    },
+    "django__django-16560": {
+      "edits_emitted": 23,
+      "edits_applied": 13,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 7010
+    },
+    "django__django-16631": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1887
+    },
+    "django__django-16938": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1317
+    },
+    "matplotlib__matplotlib-14623": {
+      "edits_emitted": 4,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 489
+    },
+    "matplotlib__matplotlib-24870": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1626
+    },
+    "matplotlib__matplotlib-25479": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 460
+    },
+    "matplotlib__matplotlib-25775": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2778
+    },
+    "mwaskom__seaborn-3187": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1504
+    },
+    "pydata__xarray-3095": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 626
+    },
+    "pydata__xarray-3305": {
+      "edits_emitted": 4,
+      "edits_applied": 4,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1534
+    },
+    "pydata__xarray-3993": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1961
+    },
+    "pydata__xarray-6938": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 819
+    },
+    "pydata__xarray-6992": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 425
+    },
+    "pylint-dev__pylint-4551": {
+      "edits_emitted": 4,
+      "edits_applied": 4,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2538
+    },
+    "pylint-dev__pylint-4604": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 603
+    },
+    "pylint-dev__pylint-4661": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 905
+    },
+    "pylint-dev__pylint-6386": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1115
+    },
+    "pylint-dev__pylint-6528": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2839
+    },
+    "pylint-dev__pylint-8898": {
+      "edits_emitted": 6,
+      "edits_applied": 4,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1071
+    },
+    "pytest-dev__pytest-5840": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 356
+    },
+    "pytest-dev__pytest-8399": {
+      "edits_emitted": 5,
+      "edits_applied": 5,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2237
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "edits_emitted": 5,
+      "edits_applied": 5,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3295
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "edits_emitted": 7,
+      "edits_applied": 4,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2460
+    },
+    "sphinx-doc__sphinx-10673": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2599
+    },
+    "sphinx-doc__sphinx-7462": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 874
+    },
+    "sphinx-doc__sphinx-7590": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2210
+    },
+    "sphinx-doc__sphinx-8120": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 673
+    },
+    "sphinx-doc__sphinx-8548": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1943
+    },
+    "sphinx-doc__sphinx-8551": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 615
+    },
+    "sphinx-doc__sphinx-8593": {
+      "edits_emitted": 9,
+      "edits_applied": 0,
+      "edits_failed_final": 4,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": false,
+      "patch_len": 0
+    },
+    "sphinx-doc__sphinx-9461": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2857
+    },
+    "sympy__sympy-13091": {
+      "edits_emitted": 4,
+      "edits_applied": 1,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 404
+    },
+    "sympy__sympy-13877": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 512
+    },
+    "sympy__sympy-14248": {
+      "edits_emitted": 6,
+      "edits_applied": 3,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2296
+    },
+    "sympy__sympy-16597": {
+      "edits_emitted": 8,
+      "edits_applied": 8,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3953
+    },
+    "sympy__sympy-17318": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1020
+    },
+    "sympy__sympy-19783": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 385
+    },
+    "sympy__sympy-20438": {
+      "edits_emitted": 4,
+      "edits_applied": 4,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2609
+    },
+    "sympy__sympy-22080": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 384
+    }
+  },
+  "oracle_keep_drop": {
+    "astropy__astropy-13398": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 4407
+    },
+    "astropy__astropy-14369": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 500
+    },
+    "django__django-10554": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 486
+    },
+    "django__django-11138": {
+      "edits_emitted": 13,
+      "edits_applied": 13,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 7176
+    },
+    "django__django-11333": {
+      "edits_emitted": 7,
+      "edits_applied": 6,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1034
+    },
+    "django__django-11400": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1319
+    },
+    "django__django-11532": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 549
+    },
+    "django__django-11734": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 490
+    },
+    "django__django-11885": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1501
+    },
+    "django__django-12155": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 599
+    },
+    "django__django-12325": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 883
+    },
+    "django__django-12406": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 819
+    },
+    "django__django-12741": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1378
+    },
+    "django__django-13121": {
+      "edits_emitted": 4,
+      "edits_applied": 1,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 562
+    },
+    "django__django-13195": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2053
+    },
+    "django__django-13212": {
+      "edits_emitted": 9,
+      "edits_applied": 9,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 6652
+    },
+    "django__django-13344": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 502
+    },
+    "django__django-13512": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 470
+    },
+    "django__django-14011": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 579
+    },
+    "django__django-14170": {
+      "edits_emitted": 7,
+      "edits_applied": 5,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2210
+    },
+    "django__django-14315": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 452
+    },
+    "django__django-14376": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1394
+    },
+    "django__django-14631": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3543
+    },
+    "django__django-15103": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1432
+    },
+    "django__django-15561": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 417
+    },
+    "django__django-15563": {
+      "edits_emitted": 4,
+      "edits_applied": 1,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1277
+    },
+    "django__django-15629": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1099
+    },
+    "django__django-16032": {
+      "edits_emitted": 21,
+      "edits_applied": 6,
+      "edits_failed_final": 12,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1266
+    },
+    "django__django-16256": {
+      "edits_emitted": 7,
+      "edits_applied": 7,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 4649
+    },
+    "django__django-16263": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3774
+    },
+    "django__django-16315": {
+      "edits_emitted": 7,
+      "edits_applied": 2,
+      "edits_failed_final": 3,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 894
+    },
+    "django__django-16560": {
+      "edits_emitted": 39,
+      "edits_applied": 15,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 8335
+    },
+    "django__django-16631": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1618
+    },
+    "django__django-16938": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1317
+    },
+    "matplotlib__matplotlib-14623": {
+      "edits_emitted": 4,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 489
+    },
+    "matplotlib__matplotlib-24870": {
+      "edits_emitted": 10,
+      "edits_applied": 5,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2826
+    },
+    "matplotlib__matplotlib-25479": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 378
+    },
+    "matplotlib__matplotlib-25775": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2867
+    },
+    "mwaskom__seaborn-3187": {
+      "edits_emitted": 6,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1359
+    },
+    "pydata__xarray-3095": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 626
+    },
+    "pydata__xarray-3305": {
+      "edits_emitted": 10,
+      "edits_applied": 4,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1535
+    },
+    "pydata__xarray-3993": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1910
+    },
+    "pydata__xarray-6938": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 839
+    },
+    "pydata__xarray-6992": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 430
+    },
+    "pylint-dev__pylint-4551": {
+      "edits_emitted": 5,
+      "edits_applied": 5,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 3355
+    },
+    "pylint-dev__pylint-4604": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 603
+    },
+    "pylint-dev__pylint-4661": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 905
+    },
+    "pylint-dev__pylint-6386": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1115
+    },
+    "pylint-dev__pylint-6528": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2827
+    },
+    "pylint-dev__pylint-8898": {
+      "edits_emitted": 7,
+      "edits_applied": 4,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1621
+    },
+    "pytest-dev__pytest-5840": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 356
+    },
+    "pytest-dev__pytest-8399": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 490
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "edits_emitted": 6,
+      "edits_applied": 6,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2754
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "edits_emitted": 9,
+      "edits_applied": 5,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2885
+    },
+    "sphinx-doc__sphinx-10673": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2589
+    },
+    "sphinx-doc__sphinx-7462": {
+      "edits_emitted": 2,
+      "edits_applied": 2,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 874
+    },
+    "sphinx-doc__sphinx-7590": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1462
+    },
+    "sphinx-doc__sphinx-8120": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 673
+    },
+    "sphinx-doc__sphinx-8548": {
+      "edits_emitted": 5,
+      "edits_applied": 2,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1967
+    },
+    "sphinx-doc__sphinx-8551": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 615
+    },
+    "sphinx-doc__sphinx-8593": {
+      "edits_emitted": 6,
+      "edits_applied": 2,
+      "edits_failed_final": 2,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": false,
+      "patch_len": 0
+    },
+    "sphinx-doc__sphinx-9461": {
+      "edits_emitted": 7,
+      "edits_applied": 7,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 5171
+    },
+    "sympy__sympy-13091": {
+      "edits_emitted": 4,
+      "edits_applied": 1,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 404
+    },
+    "sympy__sympy-13877": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 512
+    },
+    "sympy__sympy-14248": {
+      "edits_emitted": 6,
+      "edits_applied": 3,
+      "edits_failed_final": 1,
+      "failure_reasons": [
+        "no_match"
+      ],
+      "retry_rounds": 2,
+      "stop_reasons": [
+        "end_turn",
+        "end_turn",
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 2098
+    },
+    "sympy__sympy-16597": {
+      "edits_emitted": 10,
+      "edits_applied": 10,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 4241
+    },
+    "sympy__sympy-17318": {
+      "edits_emitted": 4,
+      "edits_applied": 4,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 947
+    },
+    "sympy__sympy-19783": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 421
+    },
+    "sympy__sympy-20438": {
+      "edits_emitted": 3,
+      "edits_applied": 3,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 1490
+    },
+    "sympy__sympy-22080": {
+      "edits_emitted": 1,
+      "edits_applied": 1,
+      "edits_failed_final": 0,
+      "failure_reasons": [],
+      "retry_rounds": 0,
+      "stop_reasons": [
+        "end_turn"
+      ],
+      "truncated_any": false,
+      "diff_nonempty": true,
+      "patch_len": 384
+    }
+  }
+}

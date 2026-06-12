@@ -1,0 +1,31 @@
+{
+  "repo": "src/codebase_sage/dhcm_v2",
+  "model": "qwen2.5-coder:3b",
+  "n_loci": 30,
+  "tree_nodes": 303,
+  "internal_nodes": 65,
+  "llm_calls": 56,
+  "assembly": {
+    "residual": {
+      "mean_summary_tokens": 22.567,
+      "mean_redundancy": 0.003
+    },
+    "cumulative": {
+      "mean_summary_tokens": 56.733,
+      "mean_redundancy": 0.009
+    }
+  },
+  "maintenance": {
+    "residual": {
+      "mean_resummarize_nodes": 2.0
+    },
+    "cumulative": {
+      "mean_resummarize_nodes": 4.933
+    }
+  },
+  "delta": {
+    "token_ratio_residual_over_cumulative": 0.398,
+    "redundancy_abs_drop": 0.006,
+    "maint_ratio_residual_over_cumulative": 0.405
+  }
+}

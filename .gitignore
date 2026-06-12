@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+paper/main.aux
+paper/main.bbl
+paper/main.blg
+paper/main.fdb_latexmk
+paper/main.fls
+paper/main.log
+paper/main.out
+paper/build*.log

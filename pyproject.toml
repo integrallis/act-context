@@ -1,0 +1,19 @@
+[project]
+name = "act-context"
+version = "1.0.0"
+description = "What context does a coding agent actually need to act? Experiments, instrument, and paper."
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40",
+    "openai>=1.50",
+    "datasets>=3.0",
+    "swebench>=4.1.0",
+    "tiktoken>=0.8",
+    "sentence-transformers>=3.0",
+    "matplotlib>=3.9",
+    "pytest>=8.0",
+    "pyyaml>=6.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["experiments"]

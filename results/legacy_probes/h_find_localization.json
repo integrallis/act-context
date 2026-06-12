@@ -1,0 +1,30 @@
+{
+  "repo": "src-ng/dhcm_ng",
+  "cheap_model": "qwen2.5-coder:3b",
+  "beam": 3,
+  "k": 5,
+  "recall_at_k": {
+    "all": {
+      "n": 16,
+      "residual": 0.562,
+      "cumulative": 0.812,
+      "flat": 0.875
+    },
+    "conceptual": {
+      "n": 8,
+      "residual": 0.625,
+      "cumulative": 0.875,
+      "flat": 0.875
+    },
+    "lexical": {
+      "n": 8,
+      "residual": 0.5,
+      "cumulative": 0.75,
+      "flat": 0.875
+    }
+  },
+  "mean_nodes_scored": {
+    "descent": 31.1,
+    "flat": 68.0
+  }
+}

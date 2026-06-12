@@ -1,0 +1,1085 @@
+{
+  "judge_openai_model": "gpt-4o-mini",
+  "grades": [
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "summary_qwen3b",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "signature",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "summary_qwen3b",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "summary_frontier",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "signature",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "source",
+      "openai": false,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "source",
+      "openai": false,
+      "claude": true
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "summary_qwen3b",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "summary_frontier",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "signature",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "signature",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "summary_frontier",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "summary_qwen3b",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "summary_frontier",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "signature",
+      "openai": true,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "source",
+      "openai": false,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "source",
+      "openai": false,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "source",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "signature",
+      "openai": true,
+      "claude": true
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "source",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "summary_qwen3b",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "summary_frontier",
+      "openai": false,
+      "claude": false
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "signature",
+      "openai": false,
+      "claude": false
+    }
+  ]
+}

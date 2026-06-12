@@ -1,0 +1,95 @@
+{
+  "n_probes": 45,
+  "arms": {
+    "source": {
+      "openai": {
+        "correct": 30,
+        "n": 45,
+        "ci": [
+          0.521,
+          0.786
+        ]
+      },
+      "claude": {
+        "correct": 30,
+        "n": 45,
+        "ci": [
+          0.521,
+          0.786
+        ]
+      }
+    },
+    "summary_qwen3b": {
+      "openai": {
+        "correct": 3,
+        "n": 45,
+        "ci": [
+          0.023,
+          0.179
+        ]
+      },
+      "claude": {
+        "correct": 2,
+        "n": 45,
+        "ci": [
+          0.012,
+          0.148
+        ]
+      }
+    },
+    "summary_frontier": {
+      "openai": {
+        "correct": 3,
+        "n": 45,
+        "ci": [
+          0.023,
+          0.179
+        ]
+      },
+      "claude": {
+        "correct": 3,
+        "n": 45,
+        "ci": [
+          0.023,
+          0.179
+        ]
+      }
+    },
+    "signature": {
+      "openai": {
+        "correct": 6,
+        "n": 45,
+        "ci": [
+          0.063,
+          0.262
+        ]
+      },
+      "claude": {
+        "correct": 4,
+        "n": 45,
+        "ci": [
+          0.035,
+          0.207
+        ]
+      }
+    }
+  },
+  "kappa": 0.8885,
+  "mcnemar_vs_source": {
+    "summary_qwen3b": {
+      "b": 0,
+      "c": 27,
+      "p": 0.0
+    },
+    "summary_frontier": {
+      "b": 0,
+      "c": 27,
+      "p": 0.0
+    },
+    "signature": {
+      "b": 0,
+      "c": 24,
+      "p": 0.0
+    }
+  }
+}

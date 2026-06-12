@@ -1,0 +1,291 @@
+{
+  "repo": "src/codebase_sage/dhcm_v2",
+  "cheap_model": "qwen2.5-coder:3b",
+  "frontier_model": "claude-sonnet-4-6",
+  "n_maps": 5,
+  "k_probes": 3,
+  "n_graded": 15,
+  "accuracy": {
+    "residual": 0.0,
+    "cumulative": 0.0,
+    "source": 1.0
+  },
+  "map_tokens": {
+    "residual": 914.4,
+    "cumulative": 1158.6,
+    "source": 6171.8
+  },
+  "token_ratio_residual_over_cumulative": 0.789,
+  "rows": [
+    {
+      "node": "DHCMv2",
+      "scheme": "residual",
+      "q": "What exception does DHCMv2.__init__ raise when use_mock=False and either llm_cli",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "cumulative",
+      "q": "What exception does DHCMv2.__init__ raise when use_mock=False and either llm_cli",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "source",
+      "q": "What exception does DHCMv2.__init__ raise when use_mock=False and either llm_cli",
+      "correct": 1
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "residual",
+      "q": "What format does _get_graph_name use to generate the graph name, and what fallba",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "cumulative",
+      "q": "What format does _get_graph_name use to generate the graph name, and what fallba",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "source",
+      "q": "What format does _get_graph_name use to generate the graph name, and what fallba",
+      "correct": 1
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "residual",
+      "q": "What condition must be true for graph_exists to return True after querying Falko",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "cumulative",
+      "q": "What condition must be true for graph_exists to return True after querying Falko",
+      "correct": 0
+    },
+    {
+      "node": "DHCMv2",
+      "scheme": "source",
+      "q": "What condition must be true for graph_exists to return True after querying Falko",
+      "correct": 1
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "residual",
+      "q": "What method does GraphStorage call on the database object during __init__ to ini",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "cumulative",
+      "q": "What method does GraphStorage call on the database object during __init__ to ini",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "source",
+      "q": "What method does GraphStorage call on the database object during __init__ to ini",
+      "correct": 1
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "residual",
+      "q": "What preprocessing step is applied to the props dictionary before building the C",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "cumulative",
+      "q": "What preprocessing step is applied to the props dictionary before building the C",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "source",
+      "q": "What preprocessing step is applied to the props dictionary before building the C",
+      "correct": 1
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "residual",
+      "q": "What Cypher clause does store_module use to avoid duplicate nodes when storing a",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "cumulative",
+      "q": "What Cypher clause does store_module use to avoid duplicate nodes when storing a",
+      "correct": 0
+    },
+    {
+      "node": "GraphStorage",
+      "scheme": "source",
+      "q": "What Cypher clause does store_module use to avoid duplicate nodes when storing a",
+      "correct": 1
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "residual",
+      "q": "What does `enabled_terms()` return when all four ablation toggles are set to Tru",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "cumulative",
+      "q": "What does `enabled_terms()` return when all four ablation toggles are set to Tru",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "source",
+      "q": "What does `enabled_terms()` return when all four ablation toggles are set to Tru",
+      "correct": 1
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "residual",
+      "q": "What does `ownership_distance` count between two file paths to compute the dista",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "cumulative",
+      "q": "What does `ownership_distance` count between two file paths to compute the dista",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "source",
+      "q": "What does `ownership_distance` count between two file paths to compute the dista",
+      "correct": 1
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "residual",
+      "q": "What exception does `AllocationConfig.__post_init__` raise if the level threshol",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "cumulative",
+      "q": "What exception does `AllocationConfig.__post_init__` raise if the level threshol",
+      "correct": 0
+    },
+    {
+      "node": "detail_allocation.py",
+      "scheme": "source",
+      "q": "What exception does `AllocationConfig.__post_init__` raise if the level threshol",
+      "correct": 1
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "residual",
+      "q": "What are the four detail levels for which prompts are built in build_component_p",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "cumulative",
+      "q": "What are the four detail levels for which prompts are built in build_component_p",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "source",
+      "q": "What are the four detail levels for which prompts are built in build_component_p",
+      "correct": 1
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "residual",
+      "q": "In build_function_prompts, what is the maximum number of characters from the doc",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "cumulative",
+      "q": "In build_function_prompts, what is the maximum number of characters from the doc",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "source",
+      "q": "In build_function_prompts, what is the maximum number of characters from the doc",
+      "correct": 1
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "residual",
+      "q": "In build_component_prompts, what is the maximum number of external libraries inc",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "cumulative",
+      "q": "In build_component_prompts, what is the maximum number of external libraries inc",
+      "correct": 0
+    },
+    {
+      "node": "DescriptionGenerator",
+      "scheme": "source",
+      "q": "In build_component_prompts, what is the maximum number of external libraries inc",
+      "correct": 1
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "residual",
+      "q": "What node_type does ArchitectureLayerSearch.execute() pass to vector_search?",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "cumulative",
+      "q": "What node_type does ArchitectureLayerSearch.execute() pass to vector_search?",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "source",
+      "q": "What node_type does ArchitectureLayerSearch.execute() pass to vector_search?",
+      "correct": 1
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "residual",
+      "q": "What does DesignLayerSearch.execute() return if path_constraints is an empty lis",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "cumulative",
+      "q": "What does DesignLayerSearch.execute() return if path_constraints is an empty lis",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "source",
+      "q": "What does DesignLayerSearch.execute() return if path_constraints is an empty lis",
+      "correct": 1
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "residual",
+      "q": "What two node attributes does SearchResultAccumulator.add_architecture_results()",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "cumulative",
+      "q": "What two node attributes does SearchResultAccumulator.add_architecture_results()",
+      "correct": 0
+    },
+    {
+      "node": "hierarchical_search.py",
+      "scheme": "source",
+      "q": "What two node attributes does SearchResultAccumulator.add_architecture_results()",
+      "correct": 1
+    }
+  ]
+}

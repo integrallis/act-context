@@ -1,0 +1,387 @@
+{
+  "repo": "src/codebase_sage/dhcm_v2",
+  "frontier_model": "claude-sonnet-4-6",
+  "n_methods": 6,
+  "k_probes": 3,
+  "n_graded_per_rep": 18,
+  "by_representation": {
+    "full_class": {
+      "accuracy": 1.0,
+      "mean_tokens": 18661.0
+    },
+    "uml_plus_method": {
+      "accuracy": 1.0,
+      "mean_tokens": 2813.667
+    },
+    "method_only": {
+      "accuracy": 1.0,
+      "mean_tokens": 899.667
+    },
+    "signature_only": {
+      "accuracy": 0.056,
+      "mean_tokens": 47.5
+    }
+  },
+  "rows": [
+    {
+      "method": "search",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "search",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "search",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "search",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "build",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "build",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "build",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "build",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_dhcm_smart_extract_v2",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "get_relevant_files_two_stage",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "signature_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_calls_edges",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "signature_only",
+      "correct": 0
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "full_class",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "uml_plus_method",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "method_only",
+      "correct": 1
+    },
+    {
+      "method": "_resolve_imports_edges",
+      "rep": "signature_only",
+      "correct": 0
+    }
+  ]
+}

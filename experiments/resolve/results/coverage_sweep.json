@@ -1,0 +1,1848 @@
+{
+ "astropy__astropy-13398": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 1,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5176
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 1,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3276
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 1,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3211
+  }
+ },
+ "astropy__astropy-14369": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4502
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3323
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3448
+  }
+ },
+ "astropy__astropy-8707": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 27259
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4929
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4286
+  }
+ },
+ "django__django-10554": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 34783
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5512
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4592
+  }
+ },
+ "django__django-11138": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16861
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5245
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6380
+  }
+ },
+ "django__django-11333": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6620
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2534
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1820
+  }
+ },
+ "django__django-11400": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 23005
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11109
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8882
+  }
+ },
+ "django__django-11532": {
+  "oracle_full": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13418
+  },
+  "oracle_tier": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8057
+  },
+  "oracle_keep_drop": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6436
+  }
+ },
+ "django__django-11734": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 40284
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 14355
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10570
+  }
+ },
+ "django__django-11885": {
+  "oracle_full": {
+   "hunks": 10,
+   "covered": 10,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7059
+  },
+  "oracle_tier": {
+   "hunks": 10,
+   "covered": 10,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5660
+  },
+  "oracle_keep_drop": {
+   "hunks": 10,
+   "covered": 10,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5409
+  }
+ },
+ "django__django-12155": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5353
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2957
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2694
+  }
+ },
+ "django__django-12325": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 22451
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6733
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5414
+  }
+ },
+ "django__django-12406": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 25294
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7410
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4811
+  }
+ },
+ "django__django-12741": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6307
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2702
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2541
+  }
+ },
+ "django__django-13121": {
+  "oracle_full": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 22831
+  },
+  "oracle_tier": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 19566
+  },
+  "oracle_keep_drop": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 17702
+  }
+ },
+ "django__django-13195": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6450
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2944
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2570
+  }
+ },
+ "django__django-13212": {
+  "oracle_full": {
+   "hunks": 13,
+   "covered": 13,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13843
+  },
+  "oracle_tier": {
+   "hunks": 13,
+   "covered": 13,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7691
+  },
+  "oracle_keep_drop": {
+   "hunks": 13,
+   "covered": 13,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5613
+  }
+ },
+ "django__django-13344": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2956
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1513
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1475
+  }
+ },
+ "django__django-13512": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13514
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6102
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3807
+  }
+ },
+ "django__django-14011": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2897
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1491
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1127
+  }
+ },
+ "django__django-14170": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10571
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5246
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4293
+  }
+ },
+ "django__django-14315": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 672
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 590
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 602
+  }
+ },
+ "django__django-14376": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4025
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1791
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1831
+  }
+ },
+ "django__django-14631": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6213
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5912
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5830
+  }
+ },
+ "django__django-15103": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9642
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3649
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2475
+  }
+ },
+ "django__django-15561": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 31934
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16203
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 14052
+  }
+ },
+ "django__django-15563": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16490
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3656
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2160
+  }
+ },
+ "django__django-15629": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 33720
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11068
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9579
+  }
+ },
+ "django__django-16032": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 24537
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 23131
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 22872
+  }
+ },
+ "django__django-16256": {
+  "oracle_full": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16676
+  },
+  "oracle_tier": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11069
+  },
+  "oracle_keep_drop": {
+   "hunks": 11,
+   "covered": 11,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9963
+  }
+ },
+ "django__django-16263": {
+  "oracle_full": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 42028
+  },
+  "oracle_tier": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16210
+  },
+  "oracle_keep_drop": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13562
+  }
+ },
+ "django__django-16315": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 37125
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8523
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6627
+  }
+ },
+ "django__django-16560": {
+  "oracle_full": {
+   "hunks": 18,
+   "covered": 18,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5033
+  },
+  "oracle_tier": {
+   "hunks": 18,
+   "covered": 18,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4399
+  },
+  "oracle_keep_drop": {
+   "hunks": 18,
+   "covered": 18,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4393
+  }
+ },
+ "django__django-16631": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2574
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1307
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1180
+  }
+ },
+ "django__django-16938": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4998
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2296
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1831
+  }
+ },
+ "matplotlib__matplotlib-14623": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 82882
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 19827
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16139
+  }
+ },
+ "matplotlib__matplotlib-24870": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 19273
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7516
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6696
+  }
+ },
+ "matplotlib__matplotlib-25479": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 29936
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7780
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5110
+  }
+ },
+ "matplotlib__matplotlib-25775": {
+  "oracle_full": {
+   "hunks": 12,
+   "covered": 12,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 24136
+  },
+  "oracle_tier": {
+   "hunks": 12,
+   "covered": 12,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7327
+  },
+  "oracle_keep_drop": {
+   "hunks": 12,
+   "covered": 12,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6289
+  }
+ },
+ "mwaskom__seaborn-3187": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13421
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4352
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2823
+  }
+ },
+ "pydata__xarray-3095": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 28028
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9344
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6351
+  }
+ },
+ "pydata__xarray-3305": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 57808
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9933
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7626
+  }
+ },
+ "pydata__xarray-3993": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 95482
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 12987
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8422
+  }
+ },
+ "pydata__xarray-6938": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 100756
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 14621
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9096
+  }
+ },
+ "pydata__xarray-6992": {
+  "oracle_full": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 87428
+  },
+  "oracle_tier": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 15717
+  },
+  "oracle_keep_drop": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8656
+  }
+ },
+ "pylint-dev__pylint-4551": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8022
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4993
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4079
+  }
+ },
+ "pylint-dev__pylint-4604": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 17463
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4986
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4985
+  }
+ },
+ "pylint-dev__pylint-4661": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2161
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2017
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2006
+  }
+ },
+ "pylint-dev__pylint-6386": {
+  "oracle_full": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 14877
+  },
+  "oracle_tier": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7157
+  },
+  "oracle_keep_drop": {
+   "hunks": 8,
+   "covered": 8,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5855
+  }
+ },
+ "pylint-dev__pylint-6528": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10688
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4262
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3730
+  }
+ },
+ "pylint-dev__pylint-8898": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6302
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3761
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2393
+  }
+ },
+ "pytest-dev__pytest-5840": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10997
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4368
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3552
+  }
+ },
+ "pytest-dev__pytest-8399": {
+  "oracle_full": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16991
+  },
+  "oracle_tier": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7666
+  },
+  "oracle_keep_drop": {
+   "hunks": 5,
+   "covered": 5,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4663
+  }
+ },
+ "scikit-learn__scikit-learn-12682": {
+  "oracle_full": {
+   "hunks": 24,
+   "covered": 24,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 12700
+  },
+  "oracle_tier": {
+   "hunks": 24,
+   "covered": 24,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13609
+  },
+  "oracle_keep_drop": {
+   "hunks": 24,
+   "covered": 24,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 13506
+  }
+ },
+ "scikit-learn__scikit-learn-25102": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10186
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3351
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2737
+  }
+ },
+ "sphinx-doc__sphinx-10673": {
+  "oracle_full": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9185
+  },
+  "oracle_tier": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 5388
+  },
+  "oracle_keep_drop": {
+   "hunks": 9,
+   "covered": 9,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4929
+  }
+ },
+ "sphinx-doc__sphinx-7462": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 12997
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6139
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3781
+  }
+ },
+ "sphinx-doc__sphinx-7590": {
+  "oracle_full": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 92533
+  },
+  "oracle_tier": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 50510
+  },
+  "oracle_keep_drop": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 28988
+  }
+ },
+ "sphinx-doc__sphinx-8120": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 12848
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4763
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3364
+  }
+ },
+ "sphinx-doc__sphinx-8548": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 23839
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10924
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6633
+  }
+ },
+ "sphinx-doc__sphinx-8551": {
+  "oracle_full": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 15282
+  },
+  "oracle_tier": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7120
+  },
+  "oracle_keep_drop": {
+   "hunks": 2,
+   "covered": 2,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4108
+  }
+ },
+ "sphinx-doc__sphinx-8593": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 24322
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11028
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 6444
+  }
+ },
+ "sphinx-doc__sphinx-9461": {
+  "oracle_full": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 42159
+  },
+  "oracle_tier": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 18480
+  },
+  "oracle_keep_drop": {
+   "hunks": 7,
+   "covered": 7,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11434
+  }
+ },
+ "sympy__sympy-13091": {
+  "oracle_full": {
+   "hunks": 45,
+   "covered": 45,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 211543
+  },
+  "oracle_tier": {
+   "hunks": 45,
+   "covered": 45,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 51835
+  },
+  "oracle_keep_drop": {
+   "hunks": 45,
+   "covered": 45,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 47586
+  }
+ },
+ "sympy__sympy-13877": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 36915
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 7905
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4090
+  }
+ },
+ "sympy__sympy-14248": {
+  "oracle_full": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 49438
+  },
+  "oracle_tier": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 8569
+  },
+  "oracle_keep_drop": {
+   "hunks": 4,
+   "covered": 4,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 14782
+  }
+ },
+ "sympy__sympy-16597": {
+  "oracle_full": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 36269
+  },
+  "oracle_tier": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 11032
+  },
+  "oracle_keep_drop": {
+   "hunks": 14,
+   "covered": 14,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 10031
+  }
+ },
+ "sympy__sympy-17318": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 16210
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2604
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2281
+  }
+ },
+ "sympy__sympy-19783": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 4970
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2148
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 1744
+  }
+ },
+ "sympy__sympy-20438": {
+  "oracle_full": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 12931
+  },
+  "oracle_tier": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3976
+  },
+  "oracle_keep_drop": {
+   "hunks": 6,
+   "covered": 6,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 3755
+  }
+ },
+ "sympy__sympy-22080": {
+  "oracle_full": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 9018
+  },
+  "oracle_tier": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2810
+  },
+  "oracle_keep_drop": {
+   "hunks": 3,
+   "covered": 3,
+   "new_file_hunks": 0,
+   "full_coverage": true,
+   "uncovered": [],
+   "tokens": 2904
+  }
+ }
+}

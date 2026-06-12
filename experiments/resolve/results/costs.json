@@ -1,0 +1,848 @@
+{
+  "oracle_full": {
+    "astropy__astropy-13398": {
+      "cl100k_context": 5176,
+      "anthropic_prompt": 8075
+    },
+    "astropy__astropy-14369": {
+      "cl100k_context": 4502,
+      "anthropic_prompt": 6549
+    },
+    "django__django-10554": {
+      "cl100k_context": 34783,
+      "anthropic_prompt": 45771
+    },
+    "django__django-11138": {
+      "cl100k_context": 16861,
+      "anthropic_prompt": 23205
+    },
+    "django__django-11333": {
+      "cl100k_context": 6620,
+      "anthropic_prompt": 9103
+    },
+    "django__django-11400": {
+      "cl100k_context": 23005,
+      "anthropic_prompt": 30573
+    },
+    "django__django-11532": {
+      "cl100k_context": 13418,
+      "anthropic_prompt": 18112
+    },
+    "django__django-11734": {
+      "cl100k_context": 40284,
+      "anthropic_prompt": 52257
+    },
+    "django__django-11885": {
+      "cl100k_context": 7059,
+      "anthropic_prompt": 9836
+    },
+    "django__django-12155": {
+      "cl100k_context": 5353,
+      "anthropic_prompt": 7491
+    },
+    "django__django-12325": {
+      "cl100k_context": 22451,
+      "anthropic_prompt": 29346
+    },
+    "django__django-12406": {
+      "cl100k_context": 25294,
+      "anthropic_prompt": 33913
+    },
+    "django__django-12741": {
+      "cl100k_context": 6307,
+      "anthropic_prompt": 8111
+    },
+    "django__django-13121": {
+      "cl100k_context": 22831,
+      "anthropic_prompt": 29901
+    },
+    "django__django-13195": {
+      "cl100k_context": 6450,
+      "anthropic_prompt": 9002
+    },
+    "django__django-13212": {
+      "cl100k_context": 13843,
+      "anthropic_prompt": 18102
+    },
+    "django__django-13344": {
+      "cl100k_context": 2956,
+      "anthropic_prompt": 4435
+    },
+    "django__django-13512": {
+      "cl100k_context": 13514,
+      "anthropic_prompt": 17890
+    },
+    "django__django-14011": {
+      "cl100k_context": 2897,
+      "anthropic_prompt": 4456
+    },
+    "django__django-14170": {
+      "cl100k_context": 10571,
+      "anthropic_prompt": 14499
+    },
+    "django__django-14315": {
+      "cl100k_context": 672,
+      "anthropic_prompt": 1271
+    },
+    "django__django-14376": {
+      "cl100k_context": 4025,
+      "anthropic_prompt": 5622
+    },
+    "django__django-14631": {
+      "cl100k_context": 6213,
+      "anthropic_prompt": 8566
+    },
+    "django__django-15103": {
+      "cl100k_context": 9642,
+      "anthropic_prompt": 12557
+    },
+    "django__django-15561": {
+      "cl100k_context": 31934,
+      "anthropic_prompt": 42237
+    },
+    "django__django-15563": {
+      "cl100k_context": 16490,
+      "anthropic_prompt": 22543
+    },
+    "django__django-15629": {
+      "cl100k_context": 33720,
+      "anthropic_prompt": 46021
+    },
+    "django__django-16032": {
+      "cl100k_context": 24537,
+      "anthropic_prompt": 31824
+    },
+    "django__django-16256": {
+      "cl100k_context": 16676,
+      "anthropic_prompt": 23569
+    },
+    "django__django-16263": {
+      "cl100k_context": 42028,
+      "anthropic_prompt": 54381
+    },
+    "django__django-16315": {
+      "cl100k_context": 37125,
+      "anthropic_prompt": 49127
+    },
+    "django__django-16560": {
+      "cl100k_context": 5033,
+      "anthropic_prompt": 6975
+    },
+    "django__django-16631": {
+      "cl100k_context": 2574,
+      "anthropic_prompt": 3785
+    },
+    "django__django-16938": {
+      "cl100k_context": 4998,
+      "anthropic_prompt": 8268
+    },
+    "matplotlib__matplotlib-14623": {
+      "cl100k_context": 82882,
+      "anthropic_prompt": 103627
+    },
+    "matplotlib__matplotlib-24870": {
+      "cl100k_context": 19273,
+      "anthropic_prompt": 23746
+    },
+    "matplotlib__matplotlib-25479": {
+      "cl100k_context": 29936,
+      "anthropic_prompt": 38485
+    },
+    "matplotlib__matplotlib-25775": {
+      "cl100k_context": 24136,
+      "anthropic_prompt": 31134
+    },
+    "mwaskom__seaborn-3187": {
+      "cl100k_context": 13421,
+      "anthropic_prompt": 17267
+    },
+    "pydata__xarray-3095": {
+      "cl100k_context": 28028,
+      "anthropic_prompt": 36008
+    },
+    "pydata__xarray-3305": {
+      "cl100k_context": 57808,
+      "anthropic_prompt": 71393
+    },
+    "pydata__xarray-3993": {
+      "cl100k_context": 95482,
+      "anthropic_prompt": 113995
+    },
+    "pydata__xarray-6938": {
+      "cl100k_context": 100756,
+      "anthropic_prompt": 122232
+    },
+    "pydata__xarray-6992": {
+      "cl100k_context": 87428,
+      "anthropic_prompt": 106222
+    },
+    "pylint-dev__pylint-4551": {
+      "cl100k_context": 8022,
+      "anthropic_prompt": 10716
+    },
+    "pylint-dev__pylint-4604": {
+      "cl100k_context": 17463,
+      "anthropic_prompt": 22762
+    },
+    "pylint-dev__pylint-4661": {
+      "cl100k_context": 2161,
+      "anthropic_prompt": 3148
+    },
+    "pylint-dev__pylint-6386": {
+      "cl100k_context": 14877,
+      "anthropic_prompt": 19195
+    },
+    "pylint-dev__pylint-6528": {
+      "cl100k_context": 10688,
+      "anthropic_prompt": 14512
+    },
+    "pylint-dev__pylint-8898": {
+      "cl100k_context": 6302,
+      "anthropic_prompt": 9444
+    },
+    "pytest-dev__pytest-5840": {
+      "cl100k_context": 10997,
+      "anthropic_prompt": 14378
+    },
+    "pytest-dev__pytest-8399": {
+      "cl100k_context": 16991,
+      "anthropic_prompt": 22162
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "cl100k_context": 12700,
+      "anthropic_prompt": 16253
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "cl100k_context": 10186,
+      "anthropic_prompt": 13410
+    },
+    "sphinx-doc__sphinx-10673": {
+      "cl100k_context": 9185,
+      "anthropic_prompt": 12229
+    },
+    "sphinx-doc__sphinx-7462": {
+      "cl100k_context": 12997,
+      "anthropic_prompt": 17031
+    },
+    "sphinx-doc__sphinx-7590": {
+      "cl100k_context": 92533,
+      "anthropic_prompt": 121380
+    },
+    "sphinx-doc__sphinx-8120": {
+      "cl100k_context": 12848,
+      "anthropic_prompt": 16208
+    },
+    "sphinx-doc__sphinx-8548": {
+      "cl100k_context": 23839,
+      "anthropic_prompt": 30307
+    },
+    "sphinx-doc__sphinx-8551": {
+      "cl100k_context": 15282,
+      "anthropic_prompt": 20096
+    },
+    "sphinx-doc__sphinx-8593": {
+      "cl100k_context": 24322,
+      "anthropic_prompt": 31010
+    },
+    "sphinx-doc__sphinx-9461": {
+      "cl100k_context": 42159,
+      "anthropic_prompt": 54137
+    },
+    "sympy__sympy-13091": {
+      "cl100k_context": 211543,
+      "anthropic_prompt": 261449
+    },
+    "sympy__sympy-13877": {
+      "cl100k_context": 36915,
+      "anthropic_prompt": 45398
+    },
+    "sympy__sympy-14248": {
+      "cl100k_context": 49438,
+      "anthropic_prompt": 62205
+    },
+    "sympy__sympy-16597": {
+      "cl100k_context": 36269,
+      "anthropic_prompt": 44709
+    },
+    "sympy__sympy-17318": {
+      "cl100k_context": 16210,
+      "anthropic_prompt": 20736
+    },
+    "sympy__sympy-19783": {
+      "cl100k_context": 4970,
+      "anthropic_prompt": 6533
+    },
+    "sympy__sympy-20438": {
+      "cl100k_context": 12931,
+      "anthropic_prompt": 16769
+    },
+    "sympy__sympy-22080": {
+      "cl100k_context": 9018,
+      "anthropic_prompt": 11544
+    }
+  },
+  "oracle_tier": {
+    "astropy__astropy-13398": {
+      "cl100k_context": 3276,
+      "anthropic_prompt": 5709
+    },
+    "astropy__astropy-14369": {
+      "cl100k_context": 3323,
+      "anthropic_prompt": 5017
+    },
+    "django__django-10554": {
+      "cl100k_context": 5512,
+      "anthropic_prompt": 8337
+    },
+    "django__django-11138": {
+      "cl100k_context": 5245,
+      "anthropic_prompt": 8232
+    },
+    "django__django-11333": {
+      "cl100k_context": 2534,
+      "anthropic_prompt": 3815
+    },
+    "django__django-11400": {
+      "cl100k_context": 11109,
+      "anthropic_prompt": 14943
+    },
+    "django__django-11532": {
+      "cl100k_context": 8057,
+      "anthropic_prompt": 11455
+    },
+    "django__django-11734": {
+      "cl100k_context": 14355,
+      "anthropic_prompt": 19180
+    },
+    "django__django-11885": {
+      "cl100k_context": 5660,
+      "anthropic_prompt": 7961
+    },
+    "django__django-12155": {
+      "cl100k_context": 2957,
+      "anthropic_prompt": 4376
+    },
+    "django__django-12325": {
+      "cl100k_context": 6733,
+      "anthropic_prompt": 9421
+    },
+    "django__django-12406": {
+      "cl100k_context": 7410,
+      "anthropic_prompt": 10570
+    },
+    "django__django-12741": {
+      "cl100k_context": 2702,
+      "anthropic_prompt": 3605
+    },
+    "django__django-13121": {
+      "cl100k_context": 19566,
+      "anthropic_prompt": 25765
+    },
+    "django__django-13195": {
+      "cl100k_context": 2944,
+      "anthropic_prompt": 4717
+    },
+    "django__django-13212": {
+      "cl100k_context": 7691,
+      "anthropic_prompt": 10219
+    },
+    "django__django-13344": {
+      "cl100k_context": 1513,
+      "anthropic_prompt": 2557
+    },
+    "django__django-13512": {
+      "cl100k_context": 6102,
+      "anthropic_prompt": 8279
+    },
+    "django__django-14011": {
+      "cl100k_context": 1491,
+      "anthropic_prompt": 2705
+    },
+    "django__django-14170": {
+      "cl100k_context": 5246,
+      "anthropic_prompt": 7767
+    },
+    "django__django-14315": {
+      "cl100k_context": 590,
+      "anthropic_prompt": 1164
+    },
+    "django__django-14376": {
+      "cl100k_context": 1791,
+      "anthropic_prompt": 2734
+    },
+    "django__django-14631": {
+      "cl100k_context": 5912,
+      "anthropic_prompt": 8206
+    },
+    "django__django-15103": {
+      "cl100k_context": 3649,
+      "anthropic_prompt": 5115
+    },
+    "django__django-15561": {
+      "cl100k_context": 16203,
+      "anthropic_prompt": 21441
+    },
+    "django__django-15563": {
+      "cl100k_context": 3656,
+      "anthropic_prompt": 5649
+    },
+    "django__django-15629": {
+      "cl100k_context": 11068,
+      "anthropic_prompt": 15859
+    },
+    "django__django-16032": {
+      "cl100k_context": 23131,
+      "anthropic_prompt": 30281
+    },
+    "django__django-16256": {
+      "cl100k_context": 11069,
+      "anthropic_prompt": 16251
+    },
+    "django__django-16263": {
+      "cl100k_context": 16210,
+      "anthropic_prompt": 21493
+    },
+    "django__django-16315": {
+      "cl100k_context": 8523,
+      "anthropic_prompt": 11703
+    },
+    "django__django-16560": {
+      "cl100k_context": 4399,
+      "anthropic_prompt": 6084
+    },
+    "django__django-16631": {
+      "cl100k_context": 1307,
+      "anthropic_prompt": 2166
+    },
+    "django__django-16938": {
+      "cl100k_context": 2296,
+      "anthropic_prompt": 4581
+    },
+    "matplotlib__matplotlib-14623": {
+      "cl100k_context": 19827,
+      "anthropic_prompt": 25150
+    },
+    "matplotlib__matplotlib-24870": {
+      "cl100k_context": 7516,
+      "anthropic_prompt": 9442
+    },
+    "matplotlib__matplotlib-25479": {
+      "cl100k_context": 7780,
+      "anthropic_prompt": 12068
+    },
+    "matplotlib__matplotlib-25775": {
+      "cl100k_context": 7327,
+      "anthropic_prompt": 9853
+    },
+    "mwaskom__seaborn-3187": {
+      "cl100k_context": 4352,
+      "anthropic_prompt": 6358
+    },
+    "pydata__xarray-3095": {
+      "cl100k_context": 9344,
+      "anthropic_prompt": 12846
+    },
+    "pydata__xarray-3305": {
+      "cl100k_context": 9933,
+      "anthropic_prompt": 13124
+    },
+    "pydata__xarray-3993": {
+      "cl100k_context": 12987,
+      "anthropic_prompt": 16161
+    },
+    "pydata__xarray-6938": {
+      "cl100k_context": 14621,
+      "anthropic_prompt": 19036
+    },
+    "pydata__xarray-6992": {
+      "cl100k_context": 15717,
+      "anthropic_prompt": 19965
+    },
+    "pylint-dev__pylint-4551": {
+      "cl100k_context": 4993,
+      "anthropic_prompt": 6807
+    },
+    "pylint-dev__pylint-4604": {
+      "cl100k_context": 4986,
+      "anthropic_prompt": 6670
+    },
+    "pylint-dev__pylint-4661": {
+      "cl100k_context": 2017,
+      "anthropic_prompt": 2951
+    },
+    "pylint-dev__pylint-6386": {
+      "cl100k_context": 7157,
+      "anthropic_prompt": 9443
+    },
+    "pylint-dev__pylint-6528": {
+      "cl100k_context": 4262,
+      "anthropic_prompt": 6200
+    },
+    "pylint-dev__pylint-8898": {
+      "cl100k_context": 3761,
+      "anthropic_prompt": 6159
+    },
+    "pytest-dev__pytest-5840": {
+      "cl100k_context": 4368,
+      "anthropic_prompt": 5816
+    },
+    "pytest-dev__pytest-8399": {
+      "cl100k_context": 7666,
+      "anthropic_prompt": 10136
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "cl100k_context": 13609,
+      "anthropic_prompt": 17616
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "cl100k_context": 3351,
+      "anthropic_prompt": 5063
+    },
+    "sphinx-doc__sphinx-10673": {
+      "cl100k_context": 5388,
+      "anthropic_prompt": 7294
+    },
+    "sphinx-doc__sphinx-7462": {
+      "cl100k_context": 6139,
+      "anthropic_prompt": 8167
+    },
+    "sphinx-doc__sphinx-7590": {
+      "cl100k_context": 50510,
+      "anthropic_prompt": 62209
+    },
+    "sphinx-doc__sphinx-8120": {
+      "cl100k_context": 4763,
+      "anthropic_prompt": 6364
+    },
+    "sphinx-doc__sphinx-8548": {
+      "cl100k_context": 10924,
+      "anthropic_prompt": 13167
+    },
+    "sphinx-doc__sphinx-8551": {
+      "cl100k_context": 7120,
+      "anthropic_prompt": 9546
+    },
+    "sphinx-doc__sphinx-8593": {
+      "cl100k_context": 11028,
+      "anthropic_prompt": 13386
+    },
+    "sphinx-doc__sphinx-9461": {
+      "cl100k_context": 18480,
+      "anthropic_prompt": 22924
+    },
+    "sympy__sympy-13091": {
+      "cl100k_context": 51835,
+      "anthropic_prompt": 64348
+    },
+    "sympy__sympy-13877": {
+      "cl100k_context": 7905,
+      "anthropic_prompt": 11375
+    },
+    "sympy__sympy-14248": {
+      "cl100k_context": 8569,
+      "anthropic_prompt": 11383
+    },
+    "sympy__sympy-16597": {
+      "cl100k_context": 11032,
+      "anthropic_prompt": 13565
+    },
+    "sympy__sympy-17318": {
+      "cl100k_context": 2604,
+      "anthropic_prompt": 4361
+    },
+    "sympy__sympy-19783": {
+      "cl100k_context": 2148,
+      "anthropic_prompt": 2946
+    },
+    "sympy__sympy-20438": {
+      "cl100k_context": 3976,
+      "anthropic_prompt": 5862
+    },
+    "sympy__sympy-22080": {
+      "cl100k_context": 2810,
+      "anthropic_prompt": 3920
+    }
+  },
+  "oracle_keep_drop": {
+    "astropy__astropy-13398": {
+      "cl100k_context": 3211,
+      "anthropic_prompt": 5612
+    },
+    "astropy__astropy-14369": {
+      "cl100k_context": 3448,
+      "anthropic_prompt": 5180
+    },
+    "django__django-10554": {
+      "cl100k_context": 4592,
+      "anthropic_prompt": 7705
+    },
+    "django__django-11138": {
+      "cl100k_context": 6380,
+      "anthropic_prompt": 9604
+    },
+    "django__django-11333": {
+      "cl100k_context": 1820,
+      "anthropic_prompt": 2852
+    },
+    "django__django-11400": {
+      "cl100k_context": 8882,
+      "anthropic_prompt": 11728
+    },
+    "django__django-11532": {
+      "cl100k_context": 6436,
+      "anthropic_prompt": 9388
+    },
+    "django__django-11734": {
+      "cl100k_context": 10570,
+      "anthropic_prompt": 14340
+    },
+    "django__django-11885": {
+      "cl100k_context": 5409,
+      "anthropic_prompt": 7626
+    },
+    "django__django-12155": {
+      "cl100k_context": 2694,
+      "anthropic_prompt": 3997
+    },
+    "django__django-12325": {
+      "cl100k_context": 5414,
+      "anthropic_prompt": 7865
+    },
+    "django__django-12406": {
+      "cl100k_context": 4811,
+      "anthropic_prompt": 7058
+    },
+    "django__django-12741": {
+      "cl100k_context": 2541,
+      "anthropic_prompt": 3669
+    },
+    "django__django-13121": {
+      "cl100k_context": 17702,
+      "anthropic_prompt": 23109
+    },
+    "django__django-13195": {
+      "cl100k_context": 2570,
+      "anthropic_prompt": 4255
+    },
+    "django__django-13212": {
+      "cl100k_context": 5613,
+      "anthropic_prompt": 7526
+    },
+    "django__django-13344": {
+      "cl100k_context": 1475,
+      "anthropic_prompt": 2494
+    },
+    "django__django-13512": {
+      "cl100k_context": 3807,
+      "anthropic_prompt": 5291
+    },
+    "django__django-14011": {
+      "cl100k_context": 1127,
+      "anthropic_prompt": 2200
+    },
+    "django__django-14170": {
+      "cl100k_context": 4293,
+      "anthropic_prompt": 6528
+    },
+    "django__django-14315": {
+      "cl100k_context": 602,
+      "anthropic_prompt": 1176
+    },
+    "django__django-14376": {
+      "cl100k_context": 1831,
+      "anthropic_prompt": 2803
+    },
+    "django__django-14631": {
+      "cl100k_context": 5830,
+      "anthropic_prompt": 8118
+    },
+    "django__django-15103": {
+      "cl100k_context": 2475,
+      "anthropic_prompt": 3621
+    },
+    "django__django-15561": {
+      "cl100k_context": 14052,
+      "anthropic_prompt": 18502
+    },
+    "django__django-15563": {
+      "cl100k_context": 2160,
+      "anthropic_prompt": 3832
+    },
+    "django__django-15629": {
+      "cl100k_context": 9579,
+      "anthropic_prompt": 13981
+    },
+    "django__django-16032": {
+      "cl100k_context": 22872,
+      "anthropic_prompt": 29916
+    },
+    "django__django-16256": {
+      "cl100k_context": 9963,
+      "anthropic_prompt": 14726
+    },
+    "django__django-16263": {
+      "cl100k_context": 13562,
+      "anthropic_prompt": 18272
+    },
+    "django__django-16315": {
+      "cl100k_context": 6627,
+      "anthropic_prompt": 9677
+    },
+    "django__django-16560": {
+      "cl100k_context": 4393,
+      "anthropic_prompt": 6057
+    },
+    "django__django-16631": {
+      "cl100k_context": 1180,
+      "anthropic_prompt": 1987
+    },
+    "django__django-16938": {
+      "cl100k_context": 1831,
+      "anthropic_prompt": 4013
+    },
+    "matplotlib__matplotlib-14623": {
+      "cl100k_context": 16139,
+      "anthropic_prompt": 20882
+    },
+    "matplotlib__matplotlib-24870": {
+      "cl100k_context": 6696,
+      "anthropic_prompt": 8419
+    },
+    "matplotlib__matplotlib-25479": {
+      "cl100k_context": 5110,
+      "anthropic_prompt": 8752
+    },
+    "matplotlib__matplotlib-25775": {
+      "cl100k_context": 6289,
+      "anthropic_prompt": 8680
+    },
+    "mwaskom__seaborn-3187": {
+      "cl100k_context": 2823,
+      "anthropic_prompt": 4411
+    },
+    "pydata__xarray-3095": {
+      "cl100k_context": 6351,
+      "anthropic_prompt": 9025
+    },
+    "pydata__xarray-3305": {
+      "cl100k_context": 7626,
+      "anthropic_prompt": 10481
+    },
+    "pydata__xarray-3993": {
+      "cl100k_context": 8422,
+      "anthropic_prompt": 11101
+    },
+    "pydata__xarray-6938": {
+      "cl100k_context": 9096,
+      "anthropic_prompt": 12737
+    },
+    "pydata__xarray-6992": {
+      "cl100k_context": 8656,
+      "anthropic_prompt": 11618
+    },
+    "pylint-dev__pylint-4551": {
+      "cl100k_context": 4079,
+      "anthropic_prompt": 5800
+    },
+    "pylint-dev__pylint-4604": {
+      "cl100k_context": 4985,
+      "anthropic_prompt": 6801
+    },
+    "pylint-dev__pylint-4661": {
+      "cl100k_context": 2006,
+      "anthropic_prompt": 2933
+    },
+    "pylint-dev__pylint-6386": {
+      "cl100k_context": 5855,
+      "anthropic_prompt": 8075
+    },
+    "pylint-dev__pylint-6528": {
+      "cl100k_context": 3730,
+      "anthropic_prompt": 5645
+    },
+    "pylint-dev__pylint-8898": {
+      "cl100k_context": 2393,
+      "anthropic_prompt": 4579
+    },
+    "pytest-dev__pytest-5840": {
+      "cl100k_context": 3552,
+      "anthropic_prompt": 4725
+    },
+    "pytest-dev__pytest-8399": {
+      "cl100k_context": 4663,
+      "anthropic_prompt": 6426
+    },
+    "scikit-learn__scikit-learn-12682": {
+      "cl100k_context": 13506,
+      "anthropic_prompt": 17475
+    },
+    "scikit-learn__scikit-learn-25102": {
+      "cl100k_context": 2737,
+      "anthropic_prompt": 4332
+    },
+    "sphinx-doc__sphinx-10673": {
+      "cl100k_context": 4929,
+      "anthropic_prompt": 6722
+    },
+    "sphinx-doc__sphinx-7462": {
+      "cl100k_context": 3781,
+      "anthropic_prompt": 5323
+    },
+    "sphinx-doc__sphinx-7590": {
+      "cl100k_context": 28988,
+      "anthropic_prompt": 36358
+    },
+    "sphinx-doc__sphinx-8120": {
+      "cl100k_context": 3364,
+      "anthropic_prompt": 4854
+    },
+    "sphinx-doc__sphinx-8548": {
+      "cl100k_context": 6633,
+      "anthropic_prompt": 7965
+    },
+    "sphinx-doc__sphinx-8551": {
+      "cl100k_context": 4108,
+      "anthropic_prompt": 5930
+    },
+    "sphinx-doc__sphinx-8593": {
+      "cl100k_context": 6444,
+      "anthropic_prompt": 7822
+    },
+    "sphinx-doc__sphinx-9461": {
+      "cl100k_context": 11434,
+      "anthropic_prompt": 14311
+    },
+    "sympy__sympy-13091": {
+      "cl100k_context": 47586,
+      "anthropic_prompt": 59545
+    },
+    "sympy__sympy-13877": {
+      "cl100k_context": 4090,
+      "anthropic_prompt": 6594
+    },
+    "sympy__sympy-14248": {
+      "cl100k_context": 14782,
+      "anthropic_prompt": 18510
+    },
+    "sympy__sympy-16597": {
+      "cl100k_context": 10031,
+      "anthropic_prompt": 12219
+    },
+    "sympy__sympy-17318": {
+      "cl100k_context": 2281,
+      "anthropic_prompt": 3956
+    },
+    "sympy__sympy-19783": {
+      "cl100k_context": 1744,
+      "anthropic_prompt": 2409
+    },
+    "sympy__sympy-20438": {
+      "cl100k_context": 3755,
+      "anthropic_prompt": 5447
+    },
+    "sympy__sympy-22080": {
+      "cl100k_context": 2904,
+      "anthropic_prompt": 4114
+    }
+  }
+}

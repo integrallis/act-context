@@ -1,0 +1,905 @@
+{
+  "answerer": "claude-sonnet-4-6",
+  "answers": [
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "source",
+      "answer": "When a pandas Series with a non-overlapping index is passed alongside a DataFrame, `PlotData` relies on `pd.DataFrame(plot_data)` to construct the resulting frame, which aligns data based on index values \u2014 meaning non-overlapping indices will result in `NaN` values where the indices do not match, as pandas naturally aligns on index during DataFrame construction."
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "source",
+      "answer": "When a variable value of `None` is provided in the `variables` dictionary, it is simply skipped (`continue`) in `_assign_variables`, meaning it will not appear in the resulting `frame`, `names`, or `ids`. In the `join` method, variables with `None` values are additionally tracked in a `disinherit` list, causing them to be explicitly removed from the inherited frame and metadata of the parent `PlotData`."
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "source",
+      "answer": "When a raw numpy array or Python list is passed as a variable value, `PlotData` stores `None` in the `names` dictionary for that variable, and stores the result of `id(val)` (the memory address/unique identifier of the object) in the `ids` dictionary."
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/data.py:PlotData#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "source",
+      "answer": "When `GroupBy` is initialized with a list of grouping variables (e.g., `['group']`), those variables are converted to a dict with `None` values, and during aggregation or apply operations, the grouping columns are included in the output via `reset_index()` (in `agg`) or `assign(**group_ids)` (in `apply`). The `_reorder_columns` method then ensures the output columns follow the original data's column order, with any new columns appended at the end."
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#0",
+      "arm": "signature",
+      "answer": "UNKNOWN\n\n(The context describes the method signatures and brief descriptions but does not provide sufficient detail about the specific behavior of column presence in the output when a stat transformation is applied to data with grouping columns.)"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "source",
+      "answer": "Based on the `agg` method, after aggregation the result is reindexed to match the Cartesian product of ordered grouping variable levels (via `.reindex(groups)`), then the index is reset (via `.reset_index()`), so the output DataFrame has a default integer index with the grouping variables as regular columns."
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#1",
+      "arm": "signature",
+      "answer": "Based on the context, the output DataFrame is indexed using a Cartesian product of the ordered grouping variable levels, as established by the `_get_groups` method which returns an `Index` or `MultiIndex` built from those levels."
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/groupby.py:GroupBy#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "source",
+      "answer": "Based on the `_get_categorical_mapping` method, when a dictionary palette is used, `self._check_dict_entries(levels, values)` is called. However, the implementation of `_check_dict_entries` is not provided in the context, so the exact behavior (e.g., whether it raises an error or silently handles the missing entry) is UNKNOWN."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "source",
+      "answer": "When a continuous color mapping is applied to data containing NaN values, the mapping returns `np.nan` for those positions. This is handled in the `_mapping` function, which identifies invalid (non-finite) values using `~np.isfinite(x)` and sets the corresponding output rows to `np.nan`."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "source",
+      "answer": "Based on the context, `Color.standardize()` uses `to_rgba()` to detect alpha by comparing `to_rgba(val)` with `to_rgba(val, 1)` (forced alpha=1) \u2014 if they differ, the color has an alpha channel and `to_rgba(val)` is returned (RGBA tuple); otherwise `to_rgb(val)` is returned (RGB tuple). This means an 8-digit hex code (which encodes alpha) would return an RGBA tuple, while a 6-digit hex code (no alpha) would return an RGB tuple."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Color#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "source",
+      "answer": "When the data has more than 2 unique categories and no explicit scale values are provided, `_default_values` is called, which issues a `UserWarning` stating that the variable has more than two levels and that the fill values will cycle and may be uninterpretable, then returns a list alternating `True` and `False` (cycling) for all `n` levels."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "summary_qwen3b",
+      "answer": "Based on the context, when `Fill` is used with a `Nominal` scale containing no explicit values and the data has more than 2 unique categories, the `_default_values` function would generate a list alternating between `True` and `False` values, meaning the fill pattern would cycle through `True` and `False` repeatedly for each category beyond the first two."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#0",
+      "arm": "signature",
+      "answer": "Based on the `_default_values` method description, which returns a list of n values alternating True and False, when there are more than 2 unique categories the fill values will cycle through True and False alternately (e.g., True, False, True for 3 categories), meaning multiple categories will share the same fill value."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "source",
+      "answer": "When no explicit values are specified, `_default_values` cycles through `[True, False]`, so for two levels the values list is `[True, False]`. Mapping indices `[0, 1, 0]` produces `[True, False, True]`."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "summary_qwen3b",
+      "answer": "Based on the context, the `_default_values` function generates values alternating between `True` and `False`. Therefore, for indices [0, 1, 0], the pattern would be **[True, False, True]**, as index 0 maps to `True` and index 1 maps to `False`."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "summary_frontier",
+      "answer": "Based on the context, `_default_values` generates a cycling list alternating between True and False, so for indices [0, 1, 0], the Nominal scale would map index 0 \u2192 True, index 1 \u2192 False, and index 0 \u2192 True, producing the pattern **[True, False, True]**."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#1",
+      "arm": "signature",
+      "answer": "Based on the `_default_values` method, which alternates True and False, indices [0, 1, 0] would map to [True, False, True], since index 0 maps to True and index 1 maps to False."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "source",
+      "answer": "When `get_mapping` is called with a `Nominal` scale whose `values` argument is a non-list/non-dict type (such as a plain string), it falls into the `else` branch, which raises a `TypeError` with a message stating that scale values for the variable must be passed in a list or dict, not the offending type."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:Fill#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "source",
+      "answer": "Based on the context, when no explicit range is specified, `vmin, vmax` defaults to `self.default_range` which is `(0, 1)`, and the mapping function returns `self._inverse(np.multiply(x, vmax - vmin) + vmin)`, which simplifies to `x * 1 + 0 = x`. Therefore, the normalized input values (already linearly scaled to [0, 1] by the Continuous scale) are returned unchanged, so the data [1, 3, 9] would first be normalized to [0, 0.25, 1] by the scale, and those same values would be returned by the mapping.\n\nHowever, the exact normalization of [1, 3, 9] to [0, 0.25, 1] depends on the Continuous scale's internal normalization logic, which is not shown in the"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN\n\nThe context describes that `_forward` transforms data before linear mapping and `_inverse` reverses it, and that `default_range` provides the min/max interval, but the specific transform functions (e.g., whether logarithmic or square-root is used by default) and the exact normalization computation are not provided in the given context."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#0",
+      "arm": "signature",
+      "answer": "UNKNOWN\n\n(The context describes the methods available on `IntervalProperty` but does not provide enough detail about the specific normalization logic within `get_mapping` for a Continuous scale to determine the exact normalized values returned for data [1, 3, 9].)"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "source",
+      "answer": "When a Nominal scale with a tuple range `(1, 2)` is applied to three unique categorical values, `vmin` and `vmax` are extracted from the tuple, passed through `_forward`, and then `np.linspace(vmax, vmin, len(levels))` (i.e., `np.linspace(2, 1, 3)`) generates evenly-spaced values `[2, 1.5, 1]`, which are passed through `_inverse` and assigned to the three categories in order."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#1",
+      "arm": "signature",
+      "answer": "Based on the `_get_categorical_mapping` method, which \"identifies evenly-spaced values using interval or explicit mapping,\" the three categories would be assigned evenly-spaced values within the tuple range (1, 2), resulting in values at 1.0, 1.5, and 2.0 (or similar evenly-spaced intervals between 1 and 2)."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "source",
+      "answer": "When `_forward([2, 4])` is applied, it yields `[4, 16]`, and then `np.linspace(16, 4, 3)` produces `[16, 10, 4]`; applying `_inverse` (np.sqrt) to those values gives approximately `[4.0, 3.162, 2.0]` for the three categories (from highest to lowest)."
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN\n\n(The context describes the roles of `_forward` and `_inverse` in transforming data before/after linear mapping, but does not provide sufficient detail about how a Nominal scale applies a range to discrete categories to determine the exact output values.)"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN\n\n(The context describes the purpose of `_forward` and `_inverse` transforms in relation to linear mapping, but does not provide sufficient detail about how a Nominal scale distributes values across categories or the specific computation steps to determine the exact output values.)"
+    },
+    {
+      "probe_id": "class:seaborn/_core/properties.py:IntervalProperty#2",
+      "arm": "signature",
+      "answer": "Based on the context, `_get_categorical_mapping` identifies evenly-spaced values for a Nominal scale, but the `_forward` and `_inverse` transforms are described as applying to **Continuous/linear** mapping, not categorical mapping. Since `_get_categorical_mapping` handles Nominal scales by spacing values directly within the interval (2, 4), the three categories would receive evenly-spaced values **2, 3, 4** \u2014 however, whether `_forward`/`_inverse` are applied during categorical mapping cannot be confirmed from the context alone.\n\nUNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "source",
+      "answer": "Based on the `__str__` method's docstring, yes: \"This might be incomplete because multiple classes inheriting BaseChecker can have the same name.\" This explicitly acknowledges that multiple classes inheriting `BaseChecker` can share the same `name`, while the `__eq__` and `__hash__` methods show they would still be considered distinct if their `msgs` differ (since equality is based on `f\"{self.name}{self.msgs}\"`)."
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "source",
+      "answer": "Based on the `__init__` method, `BaseChecker`'s constructor requires a single argument: `linter`, which must be an instance of `PyLinter`. The docstring confirms this, stating \"Checker instances should have the linter as argument.\""
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "summary_qwen3b",
+      "answer": "Based on the context provided, `BaseChecker`'s constructor requires a **`PyLinter` object** as its argument, which allows the checker to interact with the linter's functionalities and settings."
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "summary_frontier",
+      "answer": "Based on the context, `BaseChecker`'s constructor requires a single argument: a reference to the central `PyLinter` object (`linter: PyLinter`), which allows the checker to emit messages and interact with the broader analysis pipeline."
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#1",
+      "arm": "signature",
+      "answer": "Based on the context, `BaseChecker`'s constructor requires a single argument: `linter`, which must be of type `PyLinter`. The comment notes that \"Checker instances should have the linter as argument.\""
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "source",
+      "answer": "Messages are defined in the `msgs` class-level dictionary, where each key is a message ID string and each value is a `MessageDefinitionTuple`. Each message entry must contain at minimum three elements: a message string, a symbol, and a description, and optionally a fourth element of extra options (as seen in `create_message_definition_from_tuple`, which raises `InvalidMessageError` if fewer than three elements are provided)."
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/base_checker.py:BaseChecker#2",
+      "arm": "signature",
+      "answer": "Based on the context, messages are defined in a `BaseChecker` subclass through the `msgs` class attribute, which is a `dict[str, MessageDefinitionTuple]` mapping message IDs (strings) to `MessageDefinitionTuple` values. However, the specific fields required within each `MessageDefinitionTuple` entry are not detailed in the provided context."
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "source",
+      "answer": "When a function is called with a positional argument at an index matching a deprecated argument's position, the `\"deprecated-argument\"` message is emitted, including the deprecated argument's name (`arg_name`) and the function's name (`func_name`) as arguments."
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "source",
+      "answer": "In `visit_decorators`, if the first child node is a `nodes.Call` (indicating a decorator called with arguments like `@decorator(arg1, arg2)`), it infers the function from `children[0].func`; otherwise (for a plain `@decorator`), it infers directly from `children[0]`. In both cases, the inferred qualified name is then checked against `self.deprecated_decorators()`."
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "source",
+      "answer": "When a module is imported using `from X import Y` syntax, `visit_importfrom` calls `check_deprecated_module` with the base module name `X`, which will emit a `deprecated-module` warning if `X` is deprecated. It then also calls `check_deprecated_class` with the same base module name and the imported names (`Y`), so both checks occur in the same visitor method, but they emit different messages (`deprecated-module` vs `deprecated-class`) based on their respective callback results."
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "summary_frontier",
+      "answer": "When a `from X import Y` statement is encountered, `visit_importfrom` checks the source module X for deprecation. The context indicates that deprecated classes are also inspected via this same syntax, but the specific details of how the two detections differ in behavior are not fully described in the provided context \u2014 UNKNOWN."
+    },
+    {
+      "probe_id": "class:pylint/checkers/deprecated.py:DeprecatedMixin#2",
+      "arm": "signature",
+      "answer": "When a deprecated module is detected via `visit_importfrom`, `check_deprecated_module` is called to flag it. For deprecated classes imported via the same syntax, `check_deprecated_class` is used instead, meaning both are handled within `visit_importfrom` but through separate checking methods targeting different concerns (the module path vs. the class names)."
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "source",
+      "answer": "Based on the regex pattern `rf\"#\\s*({notes})(?=(:|\\s|\\Z))\"`, the checker requires the note tag to appear immediately after the `#` and optional whitespace (`\\s*`), so a note tag appearing in the **middle** of a comment (with other text before it) would **not** match the pattern and would **not** emit a fixme message."
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "source",
+      "answer": "Based on the code, the `col_offset` is set to `comment.start[1] + 1`, where `comment.start[1]` is the column position of the `#` character. For a comment indented with 16 spaces (e.g., `'                # FIXME'`), the `#` is at column 16, so the reported `col_offset` would be **17**."
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#1",
+      "arm": "signature",
+      "answer": "UNKNOWN\n\nThe context provides only the class structure and method signatures of `EncodingChecker`, without the implementation details of `process_tokens` that would reveal how `col_offset` is calculated for fixme messages."
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "source",
+      "answer": "When `notes` is set to an empty list, the `process_tokens` method returns early due to the check `if not self.linter.config.notes: return`, so comments containing FIXME, TODO, or XXX tags are completely ignored and no warnings are emitted."
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/misc.py:EncodingChecker#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "source",
+      "answer": "Based on the `visit_functiondef` method, `NonAsciiNameChecker` flags **all three argument types** \u2014 position-only arguments (`posonlyargs`), regular arguments (`args`), and keyword-only arguments (`kwonlyargs`) \u2014 when they contain non-ASCII characters. All three use the message ID **`non-ascii-name`** (via `_check_name` with node type `\"argument\"`)."
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "source",
+      "answer": "Based on the `_check_module_import` method, the checker uses `alias or module_name` to determine the name to check \u2014 so if an ASCII alias is provided (e.g., `okay`), it will check the alias name instead of the original module name, and since `okay` is ASCII, **no warning will be raised**."
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "source",
+      "answer": "In the first case (`from foo.bar import functi\u00f8n as function`), no message is emitted because the alias `function` is ASCII and `_check_module_import` uses `alias or module_name`, so the ASCII alias takes precedence. In the second case (`from foo.b\u00e4r import function`), no message is emitted either, because `_check_module_import` only checks the imported symbol names (and their aliases), not the module path itself (`foo.b\u00e4r`)."
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:pylint/checkers/similar.py:Similar#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:doc/en/example/multipython.py:Python#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "source",
+      "answer": "When the source file does not exist on disk, `Code.path` catches the `OSError` (raised because `p.exists()` returns `False`) and returns the raw filename string (`self.raw.co_filename`) instead of a `Path` object."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#0",
+      "arm": "signature",
+      "answer": "Based on the context provided, the `path` property's docstring only states it returns \"a path object pointing to source code, or an `str`\" \u2014 suggesting it can return either a `Path` or a plain `str`, but the specific behavior when the file does not exist on disk (e.g., with an arbitrary compile filename) is UNKNOWN from this context alone."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "source",
+      "answer": "Based on the code, `Code.getargs(var=True)` for `def f(x, *y, **z)` would return the tuple `('x', 'y', 'z')`, since `argcount` starts at 1 (for `x`), then increments by the flag bits for `CO_VARARGS` and `CO_VARKEYWORDS`, and the result is sliced from `co_varnames`."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "source",
+      "answer": "UNKNOWN\n\n(The context shows that `from_function` calls `getrawcode(obj)`, but the implementation of `getrawcode` is not provided in the given context, so we cannot determine what happens when a class is passed.)"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Code#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "source",
+      "answer": "When there is no active exception, `ExceptionInfo.from_current()` raises an `AssertionError` with the message `\"no current exception\"`, as it asserts that all three components of `sys.exc_info()` (the exception type, value, and traceback) are not `None`."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "source",
+      "answer": "No, calling `getrepr()` multiple times does not return the same object each time \u2014 each call creates and returns a new `FormattedExcinfo` instance (or `ReprExceptionInfo` for native style) and generates a new representation object via `fmt.repr_excinfo(self)`."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ExceptionInfo#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "source",
+      "answer": "UNKNOWN\n\n(The context does not provide information about `sys._getframe(0)` behavior, the implementation of `Code.fullsource`, or `getstatement`, so the specific details about what the captured line would reveal cannot be determined from the given context alone.)"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#0",
+      "arm": "signature",
+      "answer": "UNKNOWN\n\n(The context provided describes the `Frame` class interface but does not include details about `code.fullsource` or the specific behavior when a frame is created from `sys._getframe(0)` within a function.)"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "source",
+      "answer": "When the associated code object's `fullsource` is `None`, `Frame.statement` returns `Source(\"\")`, which is a `Source` object initialized with an empty string."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#1",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "source",
+      "answer": "Based on the context, `Frame.getargs(var=True)` returns a list of tuples `(name, value)` for all arguments including variable (`*args`) and keyword (`**kwargs`) arguments, where the names are retrieved via `self.code.getargs(var=True)` and the values are looked up in `self.f_locals`. However, the exact behavior for specific parameter combinations depends on `Code.getargs()`, which is not defined in the provided context, so the precise output for a mixed positional/`*args`/`**kwargs` function cannot be fully determined."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:Frame#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#0",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "source",
+      "answer": "Based on the context, when running a test with `--showlocals`, a `ReprEntry` would contain a non-None `reprlocals` attribute (of type `Optional[\"ReprLocals\"]`) for local variable information, and potentially a non-None `reprfuncargs` attribute (of type `Optional[\"ReprFuncArgs\"]`) for function arguments, as both are rendered in the `toterminal` method when they are not None."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#1",
+      "arm": "signature",
+      "answer": "Based on the context, a `ReprEntry` contains `reprlocals` (for local variable information) and `reprfuncargs` (for function arguments) as attributes, both of which would be non-None when running with `--showlocals`."
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "source",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "summary_qwen3b",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "summary_frontier",
+      "answer": "UNKNOWN"
+    },
+    {
+      "probe_id": "class:src/_pytest/_code/code.py:ReprEntry#2",
+      "arm": "signature",
+      "answer": "UNKNOWN"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "resolved_model_id": "claude-sonnet-4-6",
+  "temperature": 0.0,
+  "max_tokens": 8000,
+  "n_instances": 70,
+  "built_at_utc": "2026-06-10T23:47:52.557971+00:00"
+}

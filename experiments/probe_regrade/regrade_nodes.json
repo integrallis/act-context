@@ -1,0 +1,162 @@
+{
+  "experiment": "exp-015-probe-regrade",
+  "n_per_repo": 5,
+  "repos": [
+    {
+      "repo": "mwaskom/seaborn",
+      "base_commit": "22cdfb0c93f8ec78492d87edb810f10cb7f57a31",
+      "pin_instance": "mwaskom__seaborn-3187",
+      "nodes": [
+        {
+          "id": "class:seaborn/_core/data.py:PlotData",
+          "name": "PlotData",
+          "path": "seaborn/_core/data.py",
+          "start_line": 15,
+          "end_line": 260,
+          "n_methods": 4,
+          "test_file": "tests/_core/test_data.py"
+        },
+        {
+          "id": "class:seaborn/_core/groupby.py:GroupBy",
+          "name": "GroupBy",
+          "path": "seaborn/_core/groupby.py",
+          "start_line": 16,
+          "end_line": 129,
+          "n_methods": 5,
+          "test_file": "tests/_stats/test_regression.py"
+        },
+        {
+          "id": "class:seaborn/_core/properties.py:Color",
+          "name": "Color",
+          "path": "seaborn/_core/properties.py",
+          "start_line": 539,
+          "end_line": 690,
+          "n_methods": 5,
+          "test_file": "tests/_core/test_properties.py"
+        },
+        {
+          "id": "class:seaborn/_core/properties.py:Fill",
+          "name": "Fill",
+          "path": "seaborn/_core/properties.py",
+          "start_line": 698,
+          "end_line": 762,
+          "n_methods": 5,
+          "test_file": "tests/_core/test_properties.py"
+        },
+        {
+          "id": "class:seaborn/_core/properties.py:IntervalProperty",
+          "name": "IntervalProperty",
+          "path": "seaborn/_core/properties.py",
+          "start_line": 159,
+          "end_line": 256,
+          "n_methods": 6,
+          "test_file": "tests/_core/test_scales.py"
+        }
+      ]
+    },
+    {
+      "repo": "pylint-dev/pylint",
+      "base_commit": "273a8b25620467c1e5686aa8d2a1dbb8c02c78d0",
+      "pin_instance": "pylint-dev__pylint-6528",
+      "nodes": [
+        {
+          "id": "class:pylint/checkers/base_checker.py:BaseChecker",
+          "name": "BaseChecker",
+          "path": "pylint/checkers/base_checker.py",
+          "start_line": 36,
+          "end_line": 248,
+          "n_methods": 16,
+          "test_file": "tests/regrtest_data/dummy_plugin/dummy_plugin.py"
+        },
+        {
+          "id": "class:pylint/checkers/deprecated.py:DeprecatedMixin",
+          "name": "DeprecatedMixin",
+          "path": "pylint/checkers/deprecated.py",
+          "start_line": 28,
+          "end_line": 244,
+          "n_methods": 13,
+          "test_file": "tests/checkers/unittest_deprecated.py"
+        },
+        {
+          "id": "class:pylint/checkers/misc.py:EncodingChecker",
+          "name": "EncodingChecker",
+          "path": "pylint/checkers/misc.py",
+          "start_line": 54,
+          "end_line": 176,
+          "n_methods": 4,
+          "test_file": "tests/checkers/unittest_misc.py"
+        },
+        {
+          "id": "class:pylint/checkers/non_ascii_names.py:NonAsciiNameChecker",
+          "name": "NonAsciiNameChecker",
+          "path": "pylint/checkers/non_ascii_names.py",
+          "start_line": 30,
+          "end_line": 179,
+          "n_methods": 10,
+          "test_file": "tests/checkers/unittest_non_ascii_name.py"
+        },
+        {
+          "id": "class:pylint/checkers/similar.py:Similar",
+          "name": "Similar",
+          "path": "pylint/checkers/similar.py",
+          "start_line": 335,
+          "end_line": 554,
+          "n_methods": 10,
+          "test_file": "tests/functional/ext/redefined_loop_name/redefined_loop_name.py"
+        }
+      ]
+    },
+    {
+      "repo": "pytest-dev/pytest",
+      "base_commit": "6e7dc8bac831cd8cf7a53b08efa366bd84f0c0fe",
+      "pin_instance": "pytest-dev__pytest-8399",
+      "nodes": [
+        {
+          "id": "class:doc/en/example/multipython.py:Python",
+          "name": "Python",
+          "path": "doc/en/example/multipython.py",
+          "start_line": 25,
+          "end_line": 66,
+          "n_methods": 3,
+          "test_file": "testing/test_unraisableexception.py"
+        },
+        {
+          "id": "class:src/_pytest/_code/code.py:Code",
+          "name": "Code",
+          "path": "src/_pytest/_code/code.py",
+          "start_line": 56,
+          "end_line": 122,
+          "n_methods": 9,
+          "test_file": "testing/code/test_code.py"
+        },
+        {
+          "id": "class:src/_pytest/_code/code.py:ExceptionInfo",
+          "name": "ExceptionInfo",
+          "path": "src/_pytest/_code/code.py",
+          "start_line": 445,
+          "end_line": 666,
+          "n_methods": 16,
+          "test_file": "testing/code/test_code.py"
+        },
+        {
+          "id": "class:src/_pytest/_code/code.py:Frame",
+          "name": "Frame",
+          "path": "src/_pytest/_code/code.py",
+          "start_line": 125,
+          "end_line": 184,
+          "n_methods": 9,
+          "test_file": "testing/code/test_code.py"
+        },
+        {
+          "id": "class:src/_pytest/_code/code.py:ReprEntry",
+          "name": "ReprEntry",
+          "path": "src/_pytest/_code/code.py",
+          "start_line": 1061,
+          "end_line": 1137,
+          "n_methods": 3,
+          "test_file": "testing/test_reports.py"
+        }
+      ]
+    }
+  ]
+}
